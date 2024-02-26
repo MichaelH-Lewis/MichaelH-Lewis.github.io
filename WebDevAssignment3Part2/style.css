@@ -1,7 +1,16 @@
 div {
     width: 200px;
     height: 200px;
-    font-size: 1.125rem;
+    font-size: 1.125rem; 
     text-align: center;
+    line-height: 200px;
+    background-color: red;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    border: 1px solid darkred;
+    
+
+
 
 }
