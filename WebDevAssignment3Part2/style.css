@@ -1,16 +1,32 @@
+/* linking my div from the index HTML file in the CSS file */
 div {
+    /* Setting the width of the box to be 200px */
     width: 200px;
+    /* Setting the height of the box to 200px */
     height: 200px;
+    /* Setting the font size to be about 18 pixels bigger using rem according to the assesment 
+    1.125 was found by dividng 18 by 16, because 16 is the default font size for web browers */
     font-size: 1.125rem; 
+    /* Aligning the text to be in the center horizontally */
     text-align: center;
+    /* Setting the line-height to 200px to align my text in the center vertically */
     line-height: 200px;
+    /* Setting the colour of the box to be red */
     background-color: red;
+    /* Setting the font colour to be white */
     color: white;
+    /* Giving the text a subtle drop shadow */
     text-shadow: 1px 1px 1px black;
+    /*  Setting my border radius to 5px */
     border-radius: 5px;
+    /* Setting a slight solid darkred border */
     border: 1px solid darkred;
-    
-
-
-
+    /* Setting a box shadow to create a slightly raised effect*/
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    /* Setting my inset box shadows */
+    box-shadow: inset 3px 3px 5px rgba(255, 255, 255, 0.5);
+    /* Creating the black gradient */
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, (0, 0, 0, 0) 30%,rgba(0, 0, 0, 0.2) 100%);
+    /* Aligning the box in the center of the webpage */
+    margin: 0 auto;
 }
