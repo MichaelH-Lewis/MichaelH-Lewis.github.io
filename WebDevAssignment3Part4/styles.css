@@ -1,15 +1,17 @@
+/* Setting the basic styling for the body of my website */
 body {
     background-color: #fff;
     color: #333;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
   }
-
+/* Keeping the images within their container's width */
   img {
       max-width: 100%;
       display: block;
   }
   
+  /* Styling for the logo */
   .logo {
     font-size: 200%;
     padding: 50px 20px;
@@ -17,6 +19,7 @@ body {
     max-width: 980px;
   }
   
+  /* Styling for the grid container */
   .grid {
     margin: 0 auto;
     padding: 0 20px;
@@ -25,6 +28,7 @@ body {
     gap: 20px;
   }
   
+  /* Styling for the nav bar */
   nav {
     background-color: #000;
     padding: .5em;
@@ -32,6 +36,7 @@ body {
     position: sticky;
   }
   
+  /* Styling for the navigation list */
   nav ul {
     margin: 0;
     padding: 0;
@@ -40,12 +45,14 @@ body {
     justify-content: space-between;
   }
   
+  /* Styling for the navigation links */
   nav a {
     color: #fff;
     text-decoration: none;
     padding: .5em 1em;
   }
   
+  /* Styling for the photo container */
   .photos {
     list-style: none;
     margin: 0;
@@ -55,6 +62,7 @@ body {
     grid-template-columns: 1fr 1fr;
   }
   
+  /* Styling for the indvidual photos */ 
   .feature {
       width: 200px;
       float: left;
