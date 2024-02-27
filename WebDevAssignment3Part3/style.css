@@ -43,3 +43,17 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+
+body {
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5em;
+}
