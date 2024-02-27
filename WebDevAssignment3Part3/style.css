@@ -44,35 +44,107 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
-
+/* Setting the default font size and line height for all the text */
 body {
   font-size: 10px;
   line-height: 1.6;
 }
-
+/* Setting the font size of heading 1 to 1.5 times larger than the rest of the text, as well as aligning it correctly */
 h1 {
   font-size: 1.5em;
   text-align: center;
 }
+
+/* Setting the font size in heading 2 to be 1.5 times larger than the rest of the text */
 h2 {
   font-size: 1.5em;
 }
+
+/* Adding indentation to paragraphs in heading two */
 section h2 + p {
   text-indent: 20px;
 }
+
+/* Stylizing the paragraphs and lists */ 
 p, li {
   font-size: 1.5em;
   line-height: 1.5;
   letter-spacing: 0.5;
   word-spacing: 3px;
 }
-
+/* Stylizing the hyperlinks */
 a {
   outline: none;
 }
 
+/* Stylizing all hyperlinks containing https */
 a [href*="https"] {
   padding-right: 20px;
   background: url(external-link-52.png) no-repeat 100% 0;
   background-size: 16px 16px;
+}
+
+/* Stylizing visited and unvisited hyperlinks */
+a:link, a:visited{
+  color: #a63;
+}
+
+/* Stylizing focused and hovered hyperlinks */
+a:focus, a:hover {
+  text-decoration: none; 
+}
+
+/* Stylizing active hyperlinks */
+a:active {
+  color: transparent;
+    
+}
+
+/* Stylizing unordered and ordered lists */
+ul, ol {
+  margin: 1.5em 0;
+}
+
+/* Stylizing for unordered lists */
+ul {
+  list-style-type: square;
+}
+
+/* Stylizing for ordered lists */
+ol {
+  list-style-type: lower-latin;
+}
+
+/* Stylizing navigation lists */
+nav ul {
+  padding-left: 0;
+  margin-top: 0.8rem;
+}
+
+/* Stylizing for navigation list items */
+nav li {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+/* Stylizing links within the navigation lists */
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 2.5rem;
+  border: 1px solid #a66;
+}
+
+/* Stylizing focused and hovered links in my navigation list */
+nav li a:focus, nav li a:hover {
+  color: white;
+  background: #a66;
+}
+/* Stylizing active links in my navigation lists */
+nav li a:active {
+  color: white;
+  background: black;
 }
